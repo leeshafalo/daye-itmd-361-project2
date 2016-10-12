@@ -21,7 +21,7 @@ html {
 
 h1 {
   font-size: 1.2em; /*21.6px @18px em*/
-  line-height: 1.528em; /*33px @21.6px em*/
+  line-height: 2.037em; /*44px @21.6px em*/
 }
 
 h2 {
@@ -64,6 +64,15 @@ audio {
 }
 
 /* ===== LAYOUT STYLES ===== */
+
+.h-card ul, 
+.h-card li {
+  padding-bottom: 0;
+}
+
+.electronic li {
+  padding-bottom: 1.222em;
+}
 
 /* ===== MODULAR STYLES ===== */
 

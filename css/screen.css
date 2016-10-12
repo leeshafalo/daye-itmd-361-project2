@@ -84,3 +84,25 @@ audio {
   }
 }
 
+/* 525 @ 16px em */
+@media screen and (min-width: 31.813em) {
+  html {
+    font-size: 1.375em; /*22px @ 16px em */
+  }
+  
+  h2 {
+    font-size: 2.488em; /*44.79px @18px em */
+    line-height: 1.474em; /*66px @ 44.79px em*/
+  }
+
+  h3 {
+    font-size: 1.729em; /*31.104px @18px em */
+    line-height: 1.415em; /* 44px @ 31.104px em */
+  }
+
+  h4 {
+    font-size: 1.44em; /*25.92px @18px em*/
+    line-height: 1.273em; /*33px @25.92px em */
+  }
+}
+

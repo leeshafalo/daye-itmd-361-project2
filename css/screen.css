@@ -49,6 +49,18 @@ ol {
   padding-right: 1.222em;
 }
 
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+#first-ol {
+  list-style-type: upper-roman;
+}
+
 li {
   padding-bottom: 0.611em;
 }

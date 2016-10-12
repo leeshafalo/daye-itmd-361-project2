@@ -59,6 +59,7 @@ ol {
 
 #first-ol {
   list-style-type: upper-roman;
+  padding-left: 2.444em;
 }
 
 li {

@@ -88,6 +88,18 @@ audio {
   padding-bottom: 1.222em;
 }
 
+.education ul {
+  padding-bottom: 0.611em;
+}
+
+.experience ul {
+  padding-bottom: 0.611em;
+}
+
+.activities-scholarships ul {
+  padding-bottom: 0;
+}
+
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ===== */

@@ -76,3 +76,11 @@ audio {
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ===== */
+
+/* 350 @ 16px em */
+@media screen and (min-width: 21.875em) {
+  html {
+    font-size: 1.25em; /* 20px @16px */
+  }
+}
+

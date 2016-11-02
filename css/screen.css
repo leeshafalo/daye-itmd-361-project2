@@ -44,9 +44,9 @@ h4 {
 p,
 ul,
 ol {
-  padding-bottom: 1.222em;
-  padding-left: 1.222em;
-  padding-right: 1.222em;
+  padding-bottom: 0.6em;
+  padding-left: 1.2em;
+  padding-right: 0.6em;
 }
 
 ul {
@@ -63,7 +63,7 @@ ol {
 }
 
 li {
-  padding-bottom: 0.611em;
+  padding-bottom: 0.3em;
 }
 
 li:last-child {
@@ -85,15 +85,7 @@ audio {
 }
 
 .electronic li {
-  padding-bottom: 1.222em;
-}
-
-.education ul {
-  padding-bottom: 0.611em;
-}
-
-.experience ul {
-  padding-bottom: 0.611em;
+  padding-bottom: 1.2em;
 }
 
 .activities-scholarships ul {

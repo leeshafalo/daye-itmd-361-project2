@@ -18,7 +18,7 @@ html {
   line-height: 1.222em; /* 22px @ 18px em : 120%*/
   background-color: #F4F7F7;
   color: #040507;
-  padding: 0.611em 0.611em 1.222em 1.222em; /* 1:1 ratios */
+  padding: 0.611em 0.611em 1.222em 1.222em; /* top right bottom left */
 }
 
 h1 {

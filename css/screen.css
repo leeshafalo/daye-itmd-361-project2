@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   font-size: 1.728em; /*31.104px @18px em*/
-  line-height: 1.474em; /*55px @37.325px em*/
+  line-height: 1.415em; /*44px @31.104px em*/
 }
 
 h3 {
@@ -79,7 +79,7 @@ audio {
 
 /* ===== LAYOUT STYLES ===== */
 
-.h-card ul, 
+.h-card ul,
 .h-card li {
   padding-bottom: 0;
 }
@@ -92,6 +92,10 @@ audio {
   padding-bottom: 0;
 }
 
+.resume h2 {
+  font-size: 1.44em; /*25.92px @18px em*/
+  line-height: 1.698em; /*44px @25.92px em */
+}
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ===== */
@@ -102,7 +106,7 @@ audio {
     font-size: 1.563em; /*25px @ 16px em */
     margin: 1% 4% 1% 4%;
   }
-  
+
   h2 {
     font-size: 1.792em; /*44.79px @ 25px em */
     line-height: 1.474em; /*66px @ 44.79px em*/

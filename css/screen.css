@@ -170,15 +170,33 @@ padding: 0.666em; /*half grid*/
   html {
     font-size: 1.563em; /*25px @ 16px em */
   }
+  
   .intro,
   .order {
     float: left;
-    width: 58.8313413%;
+    width: 58.8313413%; /*3 columns  ::443px @ 753 px grid */
   }
+  
   .notice {
     box-sizing: border-box;
-    width: 38.24701195%;
+    width: 38.24701195%; /*2columns ::288 @753px grid */
     padding-top:1.222em;
-    margin-left: 61.75298805%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    margin-left: 61.75298805%; /*3 columns offset ::465px @753 grid */
+  }
+  
+  .notice h4 {
+    font-size: 1em; 
+    padding-left: 5%;   
+  }
+  
+  .photo figcaption {
+    font-size: 0.8333em; /*20.833px @25px */ 
+    line-height: 1.06em; /*22px @ 20.833px */
+  }
+
+  #first-ol {
+    font-size: 0.8333em; /*20.833px @ 25px */
   }
 }

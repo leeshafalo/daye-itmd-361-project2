@@ -92,6 +92,9 @@ audio {
   padding-bottom: 0;
 }
 
+#home-page-main {
+padding: 0.666em; /*half grid*/
+}
 .resume h2 {
   font-size: 1.44em; /*25.92px @18px em*/
   line-height: 1.698em; /*44px @25.92px em */
@@ -125,42 +128,57 @@ audio {
   padding-bottom: 0.333em; /*half line-height */
 }
          
+.notice {
+  background-color: #EFE5BE;
+  color: #222;
+}
+
+#footer {
+  clear: both;
+  padding: 1.222em;
+}
 /* ===== STATE STYLES ===== */
 
-/* 550 @ 16px em */
-@media screen and (min-width: 34.375em) {
+/* 400 @ 16px em */
+@media screen and (min-width: 25em) {
   html {
-    font-size: 1.563em; /*25px @ 16px em */
+    font-size: 1.375em; /*22px @ 16px em */
     margin: 1% 4% 1% 4%;
   }
-
+  
   h2 {
-    font-size: 1.792em; /*44.79px @ 25px em */
-    line-height: 1.474em; /*66px @ 44.79px em*/
-  }
-
-  h3 {
-    font-size: 1.248em; /*31.104px em */
-    line-height: 1.415em; /* 44px @ 31.104px em */
+    font-size: 2.074em; /*45.619 @ 22em*/
+    line-height: 1.45em; /*66px @ 45.619*/
   }
 
   h4 {
-    font-size: 1.04em; /*25.92px @25px em*/
-    line-height: 1.273em; /*33px @25.92px em */
+    font-size: 1.2em; /*26.4px @25px em*/
+    line-height: 1.25em; /*33px @26.4px em */
   }
 }
 
 /* 650 @ 16px em */
 @media screen and (min-width: 40.625em) {
   html {
-    font-size: 1.875em; /* 30px @ 16px em */
+    font-size: 1.563em; /* 25px @ 16px em */
     margin: 2% 10% 2% 10%;
   }
 }
 
-/* 850 @16px em */
-@media screen and (min-width: 53.125em) {
+/* 755 @16px em */
+@media screen and (min-width: 48.438em) {
   html {
-    font-size: 1.125em; /*18px @ 16px em */
+    font-size: 1.563em; /*25px @ 16px em */
+  }
+  .intro,
+  .order {
+    float: left;
+    width: 58.8313413%;
+  }
+  .notice {
+    box-sizing: border-box;
+    width: 38.24701195%;
+    padding-top:1.222em;
+    margin-left: 61.75298805%;
   }
 }

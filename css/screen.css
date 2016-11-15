@@ -97,7 +97,15 @@ audio {
   line-height: 1.698em; /*44px @25.92px em */
 }
 /* ===== MODULAR STYLES ===== */
+#navigation {
+  position: absolute;
+  top: 0;
+}
 
+#navigation li {
+  display: inline-block;
+  padding: 0;
+}
 /* ===== STATE STYLES ===== */
 
 /* 500 @ 16px em */

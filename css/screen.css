@@ -93,7 +93,7 @@ audio {
 }
 
 #home-page-main {
-padding: 0.666em; /*half grid*/
+  padding: 0.666em; /*half grid*/
 }
 .resume h2 {
   font-size: 1.44em; /*25.92px @18px em*/
@@ -121,13 +121,13 @@ padding: 0.666em; /*half grid*/
 }
 
 .navi li a {
-  display:block;
+  display: block;
   text-decoration: none;
   padding: 1.222em;
   padding-top: 0.333em;
   padding-bottom: 0.333em; /*half line-height */
 }
-         
+
 .notice {
   background-color: #EFE5BE;
   color: #222;
@@ -147,7 +147,7 @@ padding: 0.666em; /*half grid*/
     font-size: 1.375em; /*22px @ 16px em */
     margin: 1% 4% 1% 4%;
   }
-  
+
   h2 {
     font-size: 2.074em; /*45.619 @ 22em*/
     line-height: 1.45em; /*66px @ 45.619*/
@@ -172,29 +172,29 @@ padding: 0.666em; /*half grid*/
   html {
     font-size: 1.563em; /*25px @ 16px em */
   }
-  
+
   .intro,
   .order {
     float: left;
     width: 58.8313413%; /*3 columns  ::443px @ 753 px grid */
   }
-  
+
   .notice {
     box-sizing: border-box;
     width: 38.24701195%; /*2columns ::288 @753px grid */
-    padding-top:1.222em;
+    padding-top: 1.222em;
     padding-left: 1.5%;
     padding-right: 1.5%;
     margin-left: 61.75298805%; /*3 columns offset ::465px @753 grid */
   }
-  
+
   .notice h4 {
-    font-size: 1em; 
-    padding-left: 5%;   
+    font-size: 1em;
+    padding-left: 5%;
   }
-  
+
   .photo figcaption {
-    font-size: 0.8333em; /*20.833px @25px */ 
+    font-size: 0.8333em; /*20.833px @25px */
     line-height: 1.06em; /*22px @ 20.833px */
   }
 
